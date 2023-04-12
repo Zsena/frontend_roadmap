@@ -15,11 +15,12 @@ const user = {
 
 const App = () => {
   return (
-    <section className="base-section flex flex-col justify-center">
+    
+    <main className="base-section flex flex-col justify-center">
       <PrimaryBtn text={"count"} />
       <PrimaryBtn text={"another btn"} />
       <Avatar user={{name: user.name, imageUrl: user.imageUrl, description: user.description, imageSize: user.imageSize}} />
-    </section>
+    </main>
   );
 };
 
