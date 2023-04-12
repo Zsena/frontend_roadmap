@@ -1,0 +1,7 @@
+.avatar-wrapper {
+  @apply rounded-lg bg-white md:shadow-md sm:rounded-lg w-full drop-shadow-lg p-5 max-w-[300px] mx-auto;
+}
+
+.avatar {
+  @apply rounded-full object-cover;
+}

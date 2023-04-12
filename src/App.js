@@ -1,6 +1,9 @@
 // import logo from "./logo.svg";
 import "./App.css";
-import { useState } from "react";
+// import { useState } from "react";
+// import { Routes, Route, Navigate } from 'react-router-dom';
+
+
 import Avatar from "./components/About/Avatar";
 import PrimaryBtn from "./components/Buttons/Primary";
 

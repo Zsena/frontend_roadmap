@@ -1,29 +1,15 @@
-.base-section {
-  background-color: #282c34;
-  @apply h-screen;
-}
+@import "../src/assets/css/components/fonts.css";
+@import "../src/assets/css/common.css";
+@import "../src/assets/css/components/buttons.css";
+@import "../src/assets/css/components/cards.css";
+@import "../src/assets/css/components/typo.css";
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply font-sans;
   }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.h1 {
-  @apply text-2xl md:text-4xl;
-}
-
-.avatar-wrapper {
-  @apply rounded-lg bg-white md:shadow-md sm:rounded-lg w-full drop-shadow-lg p-5 max-w-[300px] mx-auto;
-}
-
-.avatar {
-  @apply rounded-full object-cover;
-}
-
-p {
-  @apply text-lg;
 }
