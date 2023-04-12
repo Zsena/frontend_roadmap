@@ -1,5 +1,5 @@
 
-export default function Avatar({user}) {
+const Avatar = ({user}) => {
   return (
     <div className="avatar-wrapper">
       <h1 className="h1 text-teal-400 text-left pb-3">{user.name}</h1>
@@ -18,3 +18,5 @@ export default function Avatar({user}) {
     </div>
   );
 }
+
+export default Avatar;
