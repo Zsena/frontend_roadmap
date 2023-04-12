@@ -1,5 +1,6 @@
+import PrimaryBtn from "./../Buttons/Primary";
 
-const Avatar = ({user}) => {
+const Avatar = ({ user }) => {
   return (
     <div className="avatar-wrapper">
       <h1 className="h1 text-teal-400 text-left pb-3">{user.name}</h1>
@@ -15,8 +16,9 @@ const Avatar = ({user}) => {
         />
         <p className="ml-2">{user.description}</p>
       </div>
+      <PrimaryBtn text={"Read more"} />
     </div>
   );
-}
+};
 
 export default Avatar;
