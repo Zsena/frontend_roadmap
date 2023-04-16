@@ -1,5 +1,5 @@
 .avatar-wrapper {
-  @apply rounded-lg bg-white md:shadow-md sm:rounded-lg w-full drop-shadow-lg p-5 max-w-[300px] mx-auto;
+  @apply rounded-lg bg-white md:shadow-md sm:rounded-lg w-full drop-shadow-lg p-5 md:max-w-[45%] xl:max-w-[23%] m-2;
 }
 
 .avatar {

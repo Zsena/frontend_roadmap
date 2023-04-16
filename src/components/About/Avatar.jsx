@@ -14,8 +14,8 @@ const Avatar = ({ user }) => {
             height: user.imageSize,
           }}
         />
-        <p className="ml-2">{user.description}</p>
       </div>
+      <p className="my-2">{user.description}</p>
       <PrimaryBtn text={"Read more"} />
     </div>
   );

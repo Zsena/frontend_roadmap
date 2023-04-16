@@ -1,8 +1,7 @@
 .base-section {
   background-color: #282c34;
-  @apply h-screen;
+  /* @apply h-screen; */
 }
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

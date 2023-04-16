@@ -1,9 +1,8 @@
 // import logo from "./logo.svg";
 import "./App.css";
 import { useState, useEffect } from "react";
-// import { Routes, Route, Navigate } from 'react-router-dom';
-
 import Avatar from "./components/About/Avatar";
+import NavRoute from "./components/Navbar/NavRoute";
 
 const user = {
   name: "Keanu Reeves",
@@ -24,22 +23,26 @@ const App = () => {
   }, []);
 
   return (
-    <main className="base-section flex flex-col justify-center">
-    
-      <section className="flex items-center justify-around flex-wrap">
-        {data.map((userData) => {
-          return (
-            <Avatar
-              key={userData.id}
-              user={{
-                name: userData.name,
-                imageUrl: user.imageUrl,
-                description: userData.email,
-                imageSize: user.imageSize,
-              }}
-            />
-          );
-        })}
+    <main className="base-section flex flex-col justify-center pb-10">
+      <header className="mb-10">
+        <NavRoute />
+      </header>
+      <section className="container mx-auto pt-10">
+        <section className="flex items-center justify-around flex-wrap">
+          {data.map((userData) => {
+            return (
+              <Avatar
+                key={userData.id}
+                user={{
+                  name: userData.name,
+                  imageUrl: user.imageUrl,
+                  description: userData.email,
+                  imageSize: user.imageSize,
+                }}
+              />
+            );
+          })}
+        </section>
       </section>
     </main>
   );
