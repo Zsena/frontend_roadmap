@@ -1,17 +1,6 @@
-// import logo from "./logo.svg";
+
 import "./App.css";
-// import { useState, useEffect } from "react";
-// import Avatar from "./components/About/Avatar";
 import NavRoute from "./components/Navbar/NavRoute";
-
-
-// const user = {
-//   name: "Keanu Reeves",
-//   imageUrl:
-//     "https://www.nme.com/wp-content/uploads/2022/07/Keanu-Reeves-new-696x442.jpg",
-//   imageSize: 90,
-//   description: "Lorem ipsum dolor sit amet ...",
-// };
 
 const App = () => {
   // const [data, setData] = useState([]);
@@ -24,7 +13,7 @@ const App = () => {
   // }, []);
 
   return (
-    <main className="base-section flex flex-col justify-center pb-10 h-screen">
+    <main className="flex flex-col justify-center pb-10">
       <NavRoute />
       <section className="container mx-auto pt-10">
         {/* <section className="flex items-center justify-around flex-wrap">
