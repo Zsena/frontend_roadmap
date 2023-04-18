@@ -1,15 +1,14 @@
+import Layout from "./Layout";
 import * as React from "react";
-import { Routes, Route, Link } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import About from "../../pages/About/About";
-import Contact from "../../pages/Contact/Contact";
 import Main from "../../pages/Main/Main";
 import ProjectIdeas from "../../pages/ProjectIdeas/ProjectIdeas";
 import RoadMap from "../../pages/RoadMap/RoadMap";
 import UsefulLinks from "../../pages/UsefulLinks/UsefulLinks";
+import Contact from "../../pages/Contact/Contact";
 
-import Layout from "./Layout";
-
-export const NavbarRoute = () => {
+const Footer = () => {
   return (
     <Routes>
       <Route path="/" element={<Layout />}>
@@ -18,26 +17,10 @@ export const NavbarRoute = () => {
         <Route path="roadmap" element={<RoadMap />} />
         <Route path="hasznos-linkek" element={<UsefulLinks />} />
         <Route path="otletek" element={<ProjectIdeas />} />
-        <Route path="*" element={<NoMatch />} />
         <Route path="kapcsolat" element={<Contact />} />
       </Route>
     </Routes>
   );
 };
 
-function NoMatch() {
-  return (
-    <div className="pt-10 text-center">
-      <h2 className="text-4xl">
-        Hüpp hüpp. 404 Nem található itt semmi.
-      </h2>
-      <p>
-        <Link className="text-teal-500" to="/">
-          Irány a főoldalra
-        </Link>
-      </p>
-    </div>
-  );
-}
-
-export default NavbarRoute;
+export default Footer;

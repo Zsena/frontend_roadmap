@@ -1,5 +1,6 @@
 
 import "./App.css";
+import Footer from "./components/Footer/Footer";
 import NavRoute from "./components/Navbar/NavRoute";
 
 const App = () => {
@@ -14,24 +15,7 @@ const App = () => {
   return (
     <main className="flex flex-col justify-center pb-10">
       <NavRoute />
-      <section className="container mx-auto pt-10">
-        
-        {/* <section className="flex items-center justify-around flex-wrap">
-          {data.map((userData) => {
-            return (
-              <Avatar
-                key={userData.id}
-                user={{
-                  name: userData.name,
-                  imageUrl: user.imageUrl,
-                  description: userData.email,
-                  imageSize: user.imageSize,
-                }}
-              />
-            );
-          })}
-        </section> */}
-      </section>
+      <Footer />
     </main>
   );
 };
