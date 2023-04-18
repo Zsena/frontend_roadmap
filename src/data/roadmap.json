@@ -1,39 +1,43 @@
 [
     {
         "id": 1,
-        "title": "Alapok",
-        "tags": "Html, css, Js",
-        "excerpt": "Lorem ipsum dolor sit amet",
-        "url": "/valami",
+        "title": "HTML5",
+        "tags": "Alapok, Html, web, történelem",
+        "excerpt": "A szemantikus html elemek fontossága, stb.",
+        "url": "/asdf",
         "imagePath": "/",
-        "lead": "Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet"
+        "lead": "Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet",
+        "icon": "vscode-icons:file-type-html"
     },
     {
         "id": 2,
-        "title": "Leanne Graham",
-        "tags": "Html, css, Js",
-        "excerpt": "Lorem ipsum dolor sit amet",
+        "title": "CSS3",
+        "tags": "Alapok, Html - DOM, CSS",
+        "excerpt": "CSS3 alapok, változók stb.",
         "url": "/",
         "imagePath": "/",
-        "lead": "Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet"
+        "lead": "Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet",
+        "icon": "vscode-icons:file-type-css"
     },
     {
         "id": 3,
-        "title": "Leanne Graham",
-        "tags": "Html, css, Js",
-        "excerpt": "Lorem ipsum dolor sit amet",
+        "title": "JS",
+        "tags": "Alapok, Html, css, Js",
+        "excerpt": "JS változók, ciklusok stb.",
         "url": "/",
         "imagePath": "/",
-        "lead": "Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet"
+        "lead": "Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet",
+        "icon": "vscode-icons:file-type-light-js"
     },
     {
         "id": 4,
-        "title": "Leanne Graham",
-        "tags": "Html, css, Js",
+        "title": " Alapok - NPM",
+        "tags": "Plusz, Html, css, Js",
         "excerpt": "Lorem ipsum dolor sit amet",
         "url": "/",
         "imagePath": "/",
-        "lead": "Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet"
+        "lead": "Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet",
+        "icon": "vscode-icons:file-type-npm"
     },
     {
         "id": 5,
@@ -42,7 +46,8 @@
         "excerpt": "Lorem ipsum dolor sit amet",
         "url": "/",
         "imagePath": "/",
-        "lead": "Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet"
+        "lead": "Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet",
+        "icon": "vscode-icons:file-type-html"
     },
     {
         "id": 6,
@@ -51,7 +56,8 @@
         "excerpt": "Lorem ipsum dolor sit amet",
         "url": "/",
         "imagePath": "/",
-        "lead": "Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet"
+        "lead": "Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet",
+        "icon": "vscode-icons:file-type-html"
     },
     {
         "id": 7,
@@ -60,7 +66,8 @@
         "excerpt": "Lorem ipsum dolor sit amet",
         "url": "/",
         "imagePath": "/",
-        "lead": "Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet"
+        "lead": "Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet",
+        "icon": "vscode-icons:file-type-html"
     },
     {
         "id": 8,
@@ -69,6 +76,7 @@
         "excerpt": "Lorem ipsum dolor sit amet",
         "url": "/",
         "imagePath": "/",
-        "lead": "Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet"
+        "lead": "Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet",
+        "icon": "vscode-icons:file-type-html"
     }
 ]

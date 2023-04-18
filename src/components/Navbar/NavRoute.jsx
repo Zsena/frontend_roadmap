@@ -26,7 +26,7 @@ export const NavbarRoute = () => {
 function NoMatch() {
   return (
     <div className="pt-10 text-center">
-      <h2 className="text-white text-4xl">
+      <h2 className="text-4xl">
         Hüpp hüpp. 404 Nem található itt semmi.
       </h2>
       <p>

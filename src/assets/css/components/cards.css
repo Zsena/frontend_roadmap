@@ -2,6 +2,6 @@
   @apply rounded-lg bg-white md:shadow-md sm:rounded-lg w-full drop-shadow-lg p-5 md:max-w-[45%] xl:max-w-[23%] m-2;
 }
 
-.avatar {
-  @apply rounded-full object-cover;
+.avatar svg {
+  @apply rounded-full h-20 w-20 bg-teal-50 p-2;
 }

@@ -8,8 +8,8 @@ const alt = "Freepik photo edited by Zsena: Roadmap image for a webdevelopment";
 const RoadMap = () => {
   return (
     <section className="container mx-auto pt-10">
-      <h1 className="text-4xl py-10">
-        Roadmap <Icon icon="vscode-icons:file-type-html" />
+      <h1 className="text-4xl py-10 flex items-center">
+        Roadmap <Icon className="w-20 h-20 text-teal-400" icon="raphael:roadmap" />
       </h1>
 
       <img
@@ -29,6 +29,7 @@ const RoadMap = () => {
                 imageSize: 80,
                 url: roadMap.url,
                 tags: roadMap.tags,
+                iconType: roadMap.icon,
               }}
             />
           );
