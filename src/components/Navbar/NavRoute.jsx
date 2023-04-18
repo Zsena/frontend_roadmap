@@ -27,15 +27,15 @@ export const NavbarRoute = () => {
 
 function NoMatch() {
   return (
-    <div className="pt-10 text-center">
-      <h2 className="text-4xl">
-        Hüpp hüpp. 404 Nem található itt semmi.
-      </h2>
-      <p>
-        <Link className="text-teal-500" to="/">
-          Irány a főoldalra
-        </Link>
-      </p>
+    <div className="pt-10 text-center flex items-center justify-center min-h-[650px]">
+      <div>
+        <h2 className="text-4xl">Hüpp hüpp. 404 Nem található itt semmi.</h2>
+        <p>
+          <Link className="text-teal-500" to="/">
+            Irány a főoldalra
+          </Link>
+        </p>
+      </div>
     </div>
   );
 }

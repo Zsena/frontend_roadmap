@@ -6,7 +6,7 @@ const Avatar = ({ card }) => {
   return (
     <div className="avatar-wrapper">
       <h2 className="text-2xl text-teal-400 text-left">{card.name}</h2>
-      <div className="uppercase text-slate-400 font-medium mb-3">
+      <div className="badge badge-secondary badge-outline">
         {card.tags}
       </div>
       <div className="flex justify-between items-center">

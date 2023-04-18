@@ -13,7 +13,7 @@ const App = () => {
   // }, []);
 
   return (
-    <main className="flex flex-col justify-center pb-10">
+    <main className="flex flex-col justify-center">
       <NavRoute />
       <Footer />
     </main>
