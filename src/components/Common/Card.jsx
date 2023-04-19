@@ -2,13 +2,13 @@ import { Icon } from "@iconify/react";
 import PrimaryBtn from "./../Buttons/Primary";
 import { Link } from "react-router-dom";
 
-const Avatar = ({ card }) => {
+const Card = ({ card }) => {
   return (
     <div className="avatar-wrapper">
-      <h2 className="text-2xl text-teal-400 text-left">{card.name}</h2>
-      <div className="badge badge-secondary badge-outline">
-        {card.tags}
+      <div className="prose">
+        <h2 className="text-teal-400 text-left">{card.name}</h2>
       </div>
+      <div className="badge badge-secondary badge-outline">{card.tags}</div>
       <div className="flex justify-between items-center">
         <div className="avatar">
           <Icon icon={card.iconType} />
@@ -22,4 +22,4 @@ const Avatar = ({ card }) => {
   );
 };
 
-export default Avatar;
+export default Card;

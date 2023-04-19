@@ -1,6 +1,6 @@
 import React from "react";
 import { Icon } from "@iconify/react";
-import Avatar from "../../components/About/Avatar";
+import Card from "../../components/Common/Card";
 import RoadMapData from "../../data/roadmap.json";
 import RoadMapImg from "../../assets/png/roadmap.png";
 const alt = "Freepik photo edited by Zsena: Roadmap image for a webdevelopment";
@@ -8,10 +8,12 @@ const alt = "Freepik photo edited by Zsena: Roadmap image for a webdevelopment";
 const RoadMap = () => {
   return (
     <section className="container mx-auto pt-10">
-      <h1 className="text-4xl py-10 flex items-center">
-        Roadmap <Icon className="w-20 h-20 text-teal-400" icon="raphael:roadmap" />
-      </h1>
-
+      <div className="prose">
+        <h1 className="text-4xl py-10 flex items-center">
+          Roadmap{" "}
+          <Icon className="w-20 h-20 text-teal-400" icon="raphael:roadmap" />
+        </h1>
+      </div>
       <img
         className="mb-10 rounded-2xl max-w-[70%] mx-auto"
         src={RoadMapImg}
@@ -20,7 +22,7 @@ const RoadMap = () => {
       <section className="flex items-center justify-around flex-wrap">
         {RoadMapData.map((roadMap) => {
           return (
-            <Avatar
+            <Card
               key={roadMap.id}
               card={{
                 name: roadMap.title,

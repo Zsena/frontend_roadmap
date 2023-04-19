@@ -7,7 +7,7 @@ const Layout = () => {
       {/* A "layout route" is a good place to put markup you want to
           share across all the pages on your site, like navigation. */}
       <header>
-        <nav className="bg-white py-5 fixed top-0 w-full border-b-4 border-teal-500">
+        <nav className="bg-white py-5 fixed z-20 top-0 w-full border-b-4 border-teal-500">
           <ul className="flex items-center justify-around">
             <li>
               <Link to="/">Főoldal</Link>

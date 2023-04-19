@@ -7,7 +7,7 @@ module.exports = {
     themes: [
       {
         mytheme: {
-          primary: "#56d4c0",
+          primary: "#3bc8b1",
           secondary: "#9a90f4",
           accent: "#f092d8",
           neutral: "#021431",
@@ -29,6 +29,7 @@ module.exports = {
         cyan: "#79dbdb",
         purple: "#9a90f4",
         yellow: '#fdc166',
+        lightGreen: '#56d4c0',
       },
       fontFamily: {
         sans: ["Proxima Nova", ...defaultTheme.fontFamily.sans],
